@@ -8,4 +8,6 @@ RUN apt-get update && apt-get install -y maven
 
 RUN mvn clean package -DskipTests
 
+RUN ls -l target
+
 CMD ["java", "-jar", "target/Employee_CURD_Swagger_Project-0.0.1-SNAPSHOT.jar"]
