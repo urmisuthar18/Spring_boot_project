@@ -10,4 +10,4 @@ RUN mvn clean package -DskipTests
 
 RUN ls -l target
 
-CMD ["java", "-jar", "target/Employee_CURD_Swagger_Project-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/app.jar"]
