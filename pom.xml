@@ -95,7 +95,7 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 	</dependencies>
-
+	<packaging>jar</packaging>
 	<build>
 	    <finalName>app</finalName>
 	    <plugins>
