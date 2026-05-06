@@ -32,7 +32,10 @@ public class employeeController
     {
         return service.getAllEmployees();
     }
-
+   @GetMapping("/")
+public String home() {
+    return "API is running";
+}
     //Get Employee by ID
     @GetMapping("/{id}")
     public employee getEmployeeById(@PathVariable int id)
